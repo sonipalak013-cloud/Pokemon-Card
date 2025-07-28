@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 320px;
+    background: linear-gradient(to bottom, #fffaf0, #e6e6fa);
+    padding: 10px;
+    border: 8px solid gold; /* 🔥 OUTER BORDER */
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+}
+
+.border {
+    border: 2px solid rgb(44, 44, 24);
+    
+    border-radius: 12px;
+    padding: 20px;
+    background: #e2bce6;
+    box-shadow: 0 0 15px rgb(24, 22, 10);
+}
+
+.card_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.card_header .basic {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #555;
+}
+
+.card_header .name {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 18px;
+    color: #4b0082;
+}
+
+.card_header .hp {
+    text-align: right;
+    margin-right: 4px;
+    color: red;
+}
+
+.card_header .hp_value {
+    color: red;
+    font-size: 16px;
+}
+
+.card_header .energy_icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.img_box {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.img_box img {
+    width: 100%;
+    border: 5px solid gold;
+    border-radius: 12px;
+    box-shadow: 0 0 15px gold;
+}
+
+.main {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.img_des {
+    border: 2px solid gold;
+    background-color: rgb(241, 212, 136);
+    border-radius: 7px;
+    
+    font-style: italic;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.attack {
+    margin-bottom: 10px;
+}
+
+.attack img {
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.move_name {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.move_damage {
+    float: right;
+    font-weight: bold;
+}
+
+.des {
+    font-size: 12px;
+    color: #444;
+    margin-bottom: 8px;
+    margin-top: 4px;
+    line-height: 1.4;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 6px;
+    color: #444;
+}
+
+.footer_top img {
+    width: 18px;
+    vertical-align: middle;
+}
+
+.footer {
+    border: 2px solid gold;
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 6px;
+    color: #333;
+}
+
+.footer .right p {
+    margin: 0;
+    font-style: italic;
+}
+
+.copywright {
+    text-align: center;
+    margin-top: 6px;
+    font-size: 10px;
+    color: #aaa;
+}
